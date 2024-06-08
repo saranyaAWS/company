@@ -1,0 +1,13 @@
+[
+  {
+    "name": "hello-world-container",
+    "image": "your-docker-image",
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 3000,
+        "hostPort": 3000
+      }
+    ]
+  }
+]
